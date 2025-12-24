@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renewable Energy Explained</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: white;
+            color: black;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #2c3e50 0%, #4a6491 100%);
+            color: white;
+            margin-bottom: 30px;
+            border-radius: 0 0 10px 10px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .main-content {
+            padding: 20px;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #4a6491;
+            font-size: 1.6rem;
+        }
+        
+        h3 {
+            color: #2c3e50;
+            margin: 15px 0 10px;
+            font-size: 1.3rem;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+        
+        .highlight {
+            background-color: #f5f7fa;
+            border-left: 4px solid #4a6491;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 6px 6px 0;
+        }
+        
+        .energy-list {
+            list-style-type: none;
+            margin: 15px 0;
+        }
+        
+        .energy-list li {
+            padding: 10px 12px;
+            margin-bottom: 8px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            border-left: 3px solid #4a6491;
+        }
+        
+        .energy-list i {
+            color: #4a6491;
+            margin-right: 8px;
+        }
+        
+        .energy-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin: 20px 0;
+        }
+        
+        .energy-item {
+            background-color: #f8f9fa;
+            padding: 12px;
+            border-radius: 6px;
+            text-align: center;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .energy-item i {
+            font-size: 1.5rem;
+            color: #4a6491;
+            margin-bottom: 8px;
+        }
+        
+        .stats-box {
+            text-align: center;
+            padding: 15px;
+            margin: 20px 0;
+            background-color: #f8f9fa;
+            border-radius: 6px;
+            border: 1px solid #4a6491;
+        }
+        
+        .resources {
+            margin-top: 20px;
+        }
+        
+        .resource-link {
+            display: block;
+            padding: 10px 12px;
+            margin-bottom: 8px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            color: #2c3e50;
+            text-decoration: none;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .resource-link:hover {
+            background-color: #e9ecef;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        footer p {
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            .energy-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+        
+        .energy-header {
+            text-align: center;
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 6px;
+        }
+        
+        .energy-header i {
+            font-size: 2.5rem;
+            color: #4a6491;
+            margin-bottom: 10px;
+        }
+        
+        .benefit-item {
+            padding: 12px;
+            margin-bottom: 10px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            border-left: 3px solid #28a745;
+        }
+        
+        .comparison-box {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            border: 1px solid #4a6491;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Renewable Energy Explained</h1>
+            <p class="subtitle">Clean Power for a Sustainable Future</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="energy-header">
+            <i class="fas fa-leaf"></i>
+            <h2>Sustainable Power Sources</h2>
+        </div>
+        
+        <main class="main-content">
+            <h2>What is Renewable Energy?</h2>
+            
+            <p>Renewable energy comes from natural sources that are constantly replenished, such as sunlight, wind, rain, tides, waves, and geothermal heat. Unlike fossil fuels, these energy sources produce little to no greenhouse gas emissions, making them crucial for combating climate change and creating a sustainable energy future.</p>
+            
+            <div class="highlight">
+                <p>Renewable energy currently provides about 29% of global electricity generation, with rapid growth expected in the coming decades. The cost of renewable energy technologies has dropped dramatically, making solar and wind power often cheaper than fossil fuels in many regions.</p>
+            </div>
+            
+            <h3>Types of Renewable Energy</h3>
+            
+            <div class="energy-grid">
+                <div class="energy-item">
+                    <i class="fas fa-sun"></i>
+                    <h4>Solar Power</h4>
+                    <p>Converts sunlight into electricity using photovoltaic panels</p>
+                </div>
+                
+                <div class="energy-item">
+                    <i class="fas fa-wind"></i>
+                    <h4>Wind Energy</h4>
+                    <p>Uses wind turbines to generate electricity</p>
+                </div>
+                
+                <div class="energy-item">
+                    <i class="fas fa-water"></i>
+                    <h4>Hydropower</h4>
+                    <p>Generates power from flowing water in dams or rivers</p>
+                </div>
+                
+                <div class="energy-item">
+                    <i class="fas fa-fire"></i>
+                    <h4>Geothermal</h4>
+                    <p>Uses heat from Earth's interior for power and heating</p>
+                </div>
+            </div>
+            
+            <div class="stats-box">
+                <h3>Global Renewable Energy Facts</h3>
+                <p>Solar and wind are now the cheapest sources of new electricity generation in most countries. Renewable energy investment reached $366 billion globally in 2021.</p>
+            </div>
+            
+            <h3>How Solar Energy Works</h3>
+            
+            <ul class="energy-list">
+                <li><i class="fas fa-solar-panel"></i> <strong>Photovoltaic Cells:</strong> Convert sunlight directly into electricity using semiconductor materials</li>
+                <li><i class="fas fa-sun"></i> <strong>Solar Thermal:</strong> Uses mirrors to concentrate sunlight and generate heat for electricity production</li>
+                <li><i class="fas fa-home"></i> <strong>Rooftop Solar:</strong> Residential and commercial systems that reduce grid electricity use</li>
+                <li><i class="fas fa-industry"></i> <strong>Solar Farms:</strong> Large-scale installations that feed electricity into the grid</li>
+            </ul>
+            
+            <h3>How Wind Energy Works</h3>
+            
+            <div class="comparison-box">
+                <p><strong>Onshore Wind:</strong> Wind turbines on land, typically in rural areas with consistent wind patterns</p>
+                <p><strong>Offshore Wind:</strong> Turbines installed in bodies of water where winds are stronger and more consistent</p>
+                <p><strong>Capacity:</strong> Modern wind turbines can generate enough electricity to power hundreds of homes</p>
+            </div>
+            
+            <h3>Key Benefits of Renewable Energy</h3>
+            
+            <div class="benefit-item">
+                <h4>Climate Change Mitigation</h4>
+                <p>Reduces greenhouse gas emissions and helps limit global warming</p>
+            </div>
+            
+            <div class="benefit-item">
+                <h4>Energy Security</h4>
+                <p>Reduces dependence on imported fossil fuels and price volatility</p>
+            </div>
+            
+            <div class="benefit-item">
+                <h4>Economic Growth</h4>
+                <p>Creates jobs in manufacturing, installation, and maintenance</p>
+            </div>
+            
+            <div class="benefit-item">
+                <h4>Public Health</h4>
+                <p>Reduces air and water pollution from fossil fuel combustion</p>
+            </div>
+            
+            <div class="benefit-item">
+                <h4>Cost Effectiveness</h4>
+                <p>Renewables have become cost-competitive with traditional energy sources</p>
+            </div>
+            
+            <h3>Challenges and Solutions</h3>
+            
+            <div class="highlight">
+                <p><strong>Intermittency:</strong> Solar and wind power depend on weather conditions. Solutions include energy storage (batteries), grid modernization, and hybrid systems combining multiple renewable sources.</p>
+                <p><strong>Energy Storage:</strong> Advances in battery technology, particularly lithium-ion and emerging technologies, are making renewable energy more reliable.</p>
+                <p><strong>Grid Integration:</strong> Smart grids and better transmission infrastructure help integrate variable renewable sources.</p>
+            </div>
+            
+            <h3>Emerging Technologies</h3>
+            
+            <ul class="energy-list">
+                <li><i class="fas fa-battery-full"></i> <strong>Advanced Energy Storage:</strong> Next-generation batteries and grid-scale storage solutions</li>
+                <li><i class="fas fa-water"></i> <strong>Wave & Tidal Energy:</strong> Harnessing power from ocean movements</li>
+                <li><i class="fas fa-recycle"></i> <strong>Green Hydrogen:</strong> Produced using renewable electricity for hard-to-decarbonize sectors</li>
+                <li><i class="fas fa-seedling"></i> <strong>Bioenergy with CCS:</strong> Combining biomass energy with carbon capture and storage</li>
+            </ul>
+            
+            <div class="stats-box">
+                <h3>The Energy Transition</h3>
+                <p>To limit global warming to 1.5°C, renewable energy needs to supply 65-85% of global electricity by 2050, up from about 29% today.</p>
+            </div>
+            
+            <h3>Individual and Community Action</h3>
+            
+            <p>Everyone can contribute to the renewable energy transition:</p>
+            
+            <div class="comparison-box">
+                <p><strong>Home Solutions:</strong> Install solar panels, use energy-efficient appliances, consider heat pumps</p>
+                <p><strong>Transportation:</strong> Switch to electric vehicles, use public transit, bike or walk when possible</p>
+                <p><strong>Community:</strong> Support community solar projects, advocate for renewable energy policies</p>
+                <p><strong>Investment:</strong> Choose green energy providers and sustainable investment options</p>
+            </div>
+            
+            <h3>The Future of Renewable Energy</h3>
+            
+            <p>The renewable energy sector is poised for continued rapid growth. Key trends include floating offshore wind farms, building-integrated photovoltaics, renewable-powered desalination, and the electrification of heating and transportation systems. The transition to renewable energy is essential for achieving climate goals and building a sustainable, resilient energy system.</p>
+            
+            <div class="highlight">
+                <p>Many countries and corporations have committed to 100% renewable energy targets. The technology exists today to power our world with clean energy—what's needed is continued investment, supportive policies, and public support to accelerate the transition.</p>
+            </div>
+            
+            <h3>Further Resources</h3>
+            
+            <div class="resources">
+                <a href="https://www.irena.org/" target="_blank" class="resource-link">
+                    <i class="fas fa-globe"></i> International Renewable Energy Agency
+                </a>
+                
+                <a href="https://www.energy.gov/science-innovation/energy-sources/renewable-energy" target="_blank" class="resource-link">
+                    <i class="fas fa-bolt"></i> U.S. Department of Energy: Renewable Energy
+                </a>
+                
+                <a href="https://en.wikipedia.org/wiki/Renewable_energy" target="_blank" class="resource-link">
+                    <i class="fab fa-wikipedia-w"></i> Wikipedia: Renewable Energy
+                </a>
+                
+                <a href="https://www.nrel.gov/" target="_blank" class="resource-link">
+                    <i class="fas fa-solar-panel"></i> National Renewable Energy Laboratory
+                </a>
+            </div>
+        </main>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Renewable Energy Explained &copy; 2023 | Clean Power for Our Future</p>
+            <p style="margin-top: 8px; color: #666;">Educational overview of renewable energy technologies and benefits</p>
+        </div>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renewable Energy Explained</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: white;
+            color: black;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #2c3e50 0%, #4a6491 100%);
+            color: white;
+            margin-bottom: 30px;
+            border-radius: 0 0 10px 10px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .main-content {
+            padding: 20px;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #4a6491;
+            font-size: 1.6rem;
+        }
+        
+        h3 {
+            color: #2c3e50;
+            margin: 15px 0 10px;
+            font-size: 1.3rem;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+        
+        .highlight {
+            background-color: #f5f7fa;
+            border-left: 4px solid #4a6491;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 6px 6px 0;
+        }
+        
+        .energy-list {
+            list-style-type: none;
+            margin: 15px 0;
+        }
+        
+        .energy-list li {
+            padding: 10px 12px;
+            margin-bottom: 8px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            border-left: 3px solid #4a6491;
+        }
+        
+        .energy-list i {
+            color: #4a6491;
+            margin-right: 8px;
+        }
+        
+        .energy-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin: 20px 0;
+        }
+        
+        .energy-item {
+            background-color: #f8f9fa;
+            padding: 12px;
+            border-radius: 6px;
+            text-align: center;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .energy-item i {
+            font-size: 1.5rem;
+            color: #4a6491;
+            margin-bottom: 8px;
+        }
+        
+        .stats-box {
+            text-align: center;
+            padding: 15px;
+            margin: 20px 0;
+            background-color: #f8f9fa;
+            border-radius: 6px;
+            border: 1px solid #4a6491;
+        }
+        
+        .resources {
+            margin-top: 20px;
+        }
+        
+        .resource-link {
+            display: block;
+            padding: 10px 12px;
+            margin-bottom: 8px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            color: #2c3e50;
+            text-decoration: none;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .resource-link:hover {
+            background-color: #e9ecef;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+            background-color: #f8f9fa;
+            border-top: 2px solid #4a6491;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .energy-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+        
+        .energy-header {
+            text-align: center;
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 6px;
+        }
+        
+        .energy-header i {
+            font-size: 2.5rem;
+            color: #4a6491;
+            margin-bottom: 10px;
+        }
+        
+        .benefit-item {
+            padding: 12px;
+            margin-bottom: 10px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            border-left: 3px solid #28a745;
+        }
+        
+        .comparison-box {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            border: 1px solid #4a6491;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Renewable Energy Explained</h1>
+            <p class="subtitle">Clean Power for a Sustainable Future</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="energy-header">
+            <i class="fas fa-leaf"></i>
+            <h2>Sustainable Power Sources</h2>
+        </div>
+        
+        <main class="main-content">
+            <h2>What is Renewable Energy?</h2>
+            
+            <p>Renewable energy comes from natural sources that are constantly replenished, such as sunlight, wind, rain, tides, waves, and geothermal heat. Unlike fossil fuels, these energy sources produce little to no greenhouse gas emissions, making them crucial for combating climate change and creating a sustainable energy future.</p>
+            
+            <div class="highlight">
+                <p>Renewable energy currently provides about 29% of global electricity generation, with rapid growth expected in the coming decades. The cost of renewable energy technologies has dropped dramatically, making solar and wind power often cheaper than fossil fuels in many regions.</p>
+            </div>
+            
+            <h3>Types of Renewable Energy</h3>
+            
+            <div class="energy-grid">
+                <div class="energy-item">
+                    <i class="fas fa-sun"></i>
+                    <h4>Solar Power</h4>
+                    <p>Converts sunlight into electricity using photovoltaic panels</p>
+                </div>
+                
+                <div class="energy-item">
+                    <i class="fas fa-wind"></i>
+                    <h4>Wind Energy</h4>
+                    <p>Uses wind turbines to generate electricity</p>
+                </div>
+                
+                <div class="energy-item">
+                    <i class="fas fa-water"></i>
+                    <h4>Hydropower</h4>
+                    <p>Generates power from flowing water in dams or rivers</p>
+                </div>
+                
+                <div class="energy-item">
+                    <i class="fas fa-fire"></i>
+                    <h4>Geothermal</h4>
+                    <p>Uses heat from Earth's interior for power and heating</p>
+                </div>
+            </div>
+            
+            <div class="stats-box">
+                <h3>Global Renewable Energy Facts</h3>
+                <p>Solar and wind are now the cheapest sources of new electricity generation in most countries. Renewable energy investment reached $366 billion globally in 2021.</p>
+            </div>
+            
+            <h3>How Solar Energy Works</h3>
+            
+            <ul class="energy-list">
+                <li><i class="fas fa-solar-panel"></i> <strong>Photovoltaic Cells:</strong> Convert sunlight directly into electricity using semiconductor materials</li>
+                <li><i class="fas fa-sun"></i> <strong>Solar Thermal:</strong> Uses mirrors to concentrate sunlight and generate heat for electricity production</li>
+                <li><i class="fas fa-home"></i> <strong>Rooftop Solar:</strong> Residential and commercial systems that reduce grid electricity use</li>
+                <li><i class="fas fa-industry"></i> <strong>Solar Farms:</strong> Large-scale installations that feed electricity into the grid</li>
+            </ul>
+            
+            <h3>How Wind Energy Works</h3>
+            
+            <div class="comparison-box">
+                <p><strong>Onshore Wind:</strong> Wind turbines on land, typically in rural areas with consistent wind patterns</p>
+                <p><strong>Offshore Wind:</strong> Turbines installed in bodies of water where winds are stronger and more consistent</p>
+                <p><strong>Capacity:</strong> Modern wind turbines can generate enough electricity to power hundreds of homes</p>
+            </div>
+            
+            <h3>Key Benefits of Renewable Energy</h3>
+            
+            <div class="benefit-item">
+                <h4>Climate Change Mitigation</h4>
+                <p>Reduces greenhouse gas emissions and helps limit global warming</p>
+            </div>
+            
+            <div class="benefit-item">
+                <h4>Energy Security</h4>
+                <p>Reduces dependence on imported fossil fuels and price volatility</p>
+            </div>
+            
+            <div class="benefit-item">
+                <h4>Economic Growth</h4>
+                <p>Creates jobs in manufacturing, installation, and maintenance</p>
+            </div>
+            
+            <div class="benefit-item">
+                <h4>Public Health</h4>
+                <p>Reduces air and water pollution from fossil fuel combustion</p>
+            </div>
+            
+            <div class="benefit-item">
+                <h4>Cost Effectiveness</h4>
+                <p>Renewables have become cost-competitive with traditional energy sources</p>
+            </div>
+            
+            <h3>Challenges and Solutions</h3>
+            
+            <div class="highlight">
+                <p><strong>Intermittency:</strong> Solar and wind power depend on weather conditions. Solutions include energy storage (batteries), grid modernization, and hybrid systems combining multiple renewable sources.</p>
+                <p><strong>Energy Storage:</strong> Advances in battery technology, particularly lithium-ion and emerging technologies, are making renewable energy more reliable.</p>
+                <p><strong>Grid Integration:</strong> Smart grids and better transmission infrastructure help integrate variable renewable sources.</p>
+            </div>
+            
+            <h3>Emerging Technologies</h3>
+            
+            <ul class="energy-list">
+                <li><i class="fas fa-battery-full"></i> <strong>Advanced Energy Storage:</strong> Next-generation batteries and grid-scale storage solutions</li>
+                <li><i class="fas fa-water"></i> <strong>Wave & Tidal Energy:</strong> Harnessing power from ocean movements</li>
+                <li><i class="fas fa-recycle"></i> <strong>Green Hydrogen:</strong> Produced using renewable electricity for hard-to-decarbonize sectors</li>
+                <li><i class="fas fa-seedling"></i> <strong>Bioenergy with CCS:</strong> Combining biomass energy with carbon capture and storage</li>
+            </ul>
+            
+            <div class="stats-box">
+                <h3>The Energy Transition</h3>
+                <p>To limit global warming to 1.5°C, renewable energy needs to supply 65-85% of global electricity by 2050, up from about 29% today.</p>
+            </div>
+            
+            <h3>Individual and Community Action</h3>
+            
+            <p>Everyone can contribute to the renewable energy transition:</p>
+            
+            <div class="comparison-box">
+                <p><strong>Home Solutions:</strong> Install solar panels, use energy-efficient appliances, consider heat pumps</p>
+                <p><strong>Transportation:</strong> Switch to electric vehicles, use public transit, bike or walk when possible</p>
+                <p><strong>Community:</strong> Support community solar projects, advocate for renewable energy policies</p>
+                <p><strong>Investment:</strong> Choose green energy providers and sustainable investment options</p>
+            </div>
+            
+            <h3>The Future of Renewable Energy</h3>
+            
+            <p>The renewable energy sector is poised for continued rapid growth. Key trends include floating offshore wind farms, building-integrated photovoltaics, renewable-powered desalination, and the electrification of heating and transportation systems. The transition to renewable energy is essential for achieving climate goals and building a sustainable, resilient energy system.</p>
+            
+            <div class="highlight">
+                <p>Many countries and corporations have committed to 100% renewable energy targets. The technology exists today to power our world with clean energy—what's needed is continued investment, supportive policies, and public support to accelerate the transition.</p>
+            </div>
+            
+            <h3>Further Resources</h3>
+            
+            <div class="resources">
+                <a href="https://www.irena.org/" target="_blank" class="resource-link">
+                    <i class="fas fa-globe"></i> International Renewable Energy Agency
+                </a>
+                
+                <a href="https://www.energy.gov/science-innovation/energy-sources/renewable-energy" target="_blank" class="resource-link">
+                    <i class="fas fa-bolt"></i> U.S. Department of Energy: Renewable Energy
+                </a>
+                
+                <a href="https://en.wikipedia.org/wiki/Renewable_energy" target="_blank" class="resource-link">
+                    <i class="fab fa-wikipedia-w"></i> Wikipedia: Renewable Energy
+                </a>
+                
+                <a href="https://www.nrel.gov/" target="_blank" class="resource-link">
+                    <i class="fas fa-solar-panel"></i> National Renewable Energy Laboratory
+                </a>
+            </div>
+        </main>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Best Blog &copy; 2025 | Designed By Oludev</p>
+            <!--<p style="margin-top: 10px; font-size: 0.9rem;">All external links open in a new tab for further learning.</p>-->
+        </div>
+    </footer>
+</body>
+</html>
